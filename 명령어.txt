@@ -3,3 +3,5 @@
 - git add → local 작업물이 staging 영역으로 이동(해설 : local에도 남아있는듯) : git add 파일명 or .(전체파일)
 - git commit → staging에 올라간 작업물이 repository로 이동(해설 : staging에도 남아있는듯) : git commit -m "쓰고싶은말"
 - git push → repository의 작업물이 remote로 이동(단, 이경우 내역들은 repository에도 남아있음) : git push origin 브랜치명
+- git fetch → 원격저장소 변경된 내용있는지 새로고침 : git fetch origin 브랜치명
+- git pull → 원격저장소에 있는 데이터 로컬로 댕겨오기 : git pull origin 브랜치명
