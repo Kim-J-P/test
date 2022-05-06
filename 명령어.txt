@@ -1,5 +1,5 @@
 - git status → 현재 로컬 저장소의 상태를 확인
 - git init → 깃 로컬 저장소로 초기화
-- git add → local 작업물이 staging 영역으로 이동(해설 : local에도 남아있는듯)
-- git commit → staging에 올라간 작업물이 repository로 이동(해설 : staging에도 남아있는듯)
-- git push → repository의 작업물이 remote로 이동(단, 이경우 내역들은 repository에도 남아있음)
+- git add → local 작업물이 staging 영역으로 이동(해설 : local에도 남아있는듯) : git add 파일명 or .(전체파일)
+- git commit → staging에 올라간 작업물이 repository로 이동(해설 : staging에도 남아있는듯) : git commit -m "쓰고싶은말"
+- git push → repository의 작업물이 remote로 이동(단, 이경우 내역들은 repository에도 남아있음) : git push origin 브랜치명
